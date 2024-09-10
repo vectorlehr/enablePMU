@@ -1,0 +1,1 @@
+cmd_/home/lehr/armutils/enablePMU/aarch64/module/enable_pmu.ko := ld -EL -r  -maarch64linux -z noexecstack  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o /home/lehr/armutils/enablePMU/aarch64/module/enable_pmu.ko /home/lehr/armutils/enablePMU/aarch64/module/enable_pmu.o /home/lehr/armutils/enablePMU/aarch64/module/enable_pmu.mod.o ;  true
